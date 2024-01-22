@@ -1,0 +1,62 @@
+body {
+    background-color: #e5dcb3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    font-size: 24px;
+    padding: 5px;
+    border: solid 1px darkgreen;
+}
+a:hover{
+background-color:#FFFFFF;
+}
+.navBar{
+    background-color: #2a8d0f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#marginSet{
+    margin:40px
+}
+.centreText{
+    display: flex;
+    justify-content: center;
+    text-align-last: center ;
+    font-size: 200%;
+}
+.separatedImage{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
+.sellingpictures{
+    width: 400px;
+    height: 300px;
+    border: black solid 5px;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px;
+}
+#sortedImages{
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+.indexImage{
+    border: black solid 10px;
+    Width: 25%;
+}
